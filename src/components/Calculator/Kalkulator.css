@@ -1,0 +1,70 @@
+h1 {
+  font-size: 2em;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input-group {
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.dugmad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+button {
+  padding: 0.6rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.resetuj {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.rezultat {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.greska {
+  color: red;
+  margin-bottom: 0.5rem;
+}
